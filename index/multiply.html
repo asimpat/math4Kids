@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiply</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body id="body">
+    <audio src=""></audio>
+
+    <header>
+        <div class="container">
+            <h1>MATH 4 KIDS</h1>
+            <ul>
+                <li><a href="/index/index.html">Add</a></li>
+                <li><a href="/index/sub.html">Subtract</a></li>
+                <li class="active"><a href="/index/multiply.html">Multiply</a></li>
+                <li><a href="/index/divide.html">Divide</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>GAME OVER!!!!😭😫😫</h1>
+        <p>Exit to Try again!!!!</p>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="wrapper">
+        <div class="equation">
+            <h1 id="num1" style="color: red">1</h1>
+            <h1 style="color: cyan">&times;</h1>
+            <h1 id="num2" style="color: blue">1</h1>
+            <h1 style="color: red">=</h1>
+            <h1 style="color: gray">?</h1>
+        </div>
+        <div class="answers">
+            <h1 id="option1">1</h1>
+            <h1 id="option2">2</h1>
+            <h1 id="option3">3</h1>
+        </div>
+    </div>
+    <script src="/script/multiply.js"></script>
+</body>
+
+</html>
